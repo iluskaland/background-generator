@@ -1,7 +1,7 @@
 # background-generator
 
 This is a @zerotomastery javascript task.
-⋅⋅We had a basic function that worked: the setGradient(), which set the gradient according to the color is picked with the input elements.
+⋅⋅⋅We had a basic function that worked: the setGradient(), which set the gradient according to the color is picked with the input elements.⋅⋅
 
 The additional tasks were to add some more functionality, such as: 
   - write code so that the colour inputs match the background generated on the first page load, 
