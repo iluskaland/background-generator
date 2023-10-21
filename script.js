@@ -25,7 +25,7 @@ function pageLoad() {
 	css.textContent = body.style.background + ";";
 }
 
-/*My first try: with rgb numbers.*/
+/*Here's my initial attempt using RGB numbers. However, the color inputs require hexadecimal numbers, so I would need to convert my RGB values to hex for compatibility...*/
 /*function random() {
 	var randomNumber = Math.floor((Math.random() * 256) + 0);
 	return randomNumber;
@@ -36,7 +36,7 @@ function randomRgb() {
 	console.log(rgb);
 }*/
 
-/*I needed another one, with hex numbers. This solution random() below is something I had to searched for: https://www.geeksforgeeks.org/javascript-generate-random-hex-codes-color/ */
+/*So I needed another solution, with hex numbers. This solution random() below is something I had to searched for: https://www.geeksforgeeks.org/javascript-generate-random-hex-codes-color/ */
 // 3. BONUS: Add a random button which generates two random numbers for the colour inputs.
 function random() {
 	// Storing all letter and digit combinations for html color code
