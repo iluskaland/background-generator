@@ -1,11 +1,19 @@
 # background-generator
 
-This is a @zerotomastery javascript task.   
-We had a basic function that worked: the setGradient(), which set the gradient according to the color is picked with the input elements.
+This project is part of the [@zerotomastery](https://zerotomastery.io/) JavaScript task, focusing on creating a gradient generator with additional features.
 
-The additional tasks were to add some more functionality, such as: 
-  - write code so that the colour inputs match the background generated on the first page load, 
-  - display the initial CSS linear gradient property on page load (I also created a reset button for that)
-  - BONUS: Add a random button which generates two random numbers for the colour inputs
-For the bonus, I've created a random rgb generator function, but for that to work, I should have also create an additional function instead of an existing one, so I moved on from that and searched for a hex generator function.
-I've linked the source I found in my javascript file's comment section.
+## Overview
+
+### Basic Functionality (Provided by the Course)
+
+We began with a shared function, `setGradient()`, which allowed users to set a gradient based on the colors selected with input elements. 
+
+### Additional Opportunities (Optional)
+
+As part of the course, the following optional tasks were suggested for students to explore:
+
+1. **Match Background on Page Load**: write code that makes the color inputs match the background gradient generated on the first page load.
+
+2. **Display Initial CSS Linear Gradient Property**: display the initial CSS linear gradient property upon page load. I also included a reset button for users to revert to this initial state.
+
+3. **BONUS: Add a Random Button**: As an additional challenge, I created a "Random" button that generates two random colors for the gradient. Initially, I developed a random RGB generator function on my own, but later I found a more efficient solution and linked the source in the JavaScript file's comment section.
