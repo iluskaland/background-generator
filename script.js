@@ -25,8 +25,7 @@ function pageLoad() {
 	css.textContent = body.style.background + ";";
 }
 
-/*My first try: with rgb numbers.
-It was a good solution, but I would need another function instead of setGradient, that would mean DRY is not an option anymore*/
+/*My first try: with rgb numbers.*/
 /*function random() {
 	var randomNumber = Math.floor((Math.random() * 256) + 0);
 	return randomNumber;
@@ -37,7 +36,7 @@ function randomRgb() {
 	console.log(rgb);
 }*/
 
-/*So I needed another one, with hex numbers. This solution random() below is something I had to searched for: https://www.geeksforgeeks.org/javascript-generate-random-hex-codes-color/ */
+/*I needed another one, with hex numbers. This solution random() below is something I had to searched for: https://www.geeksforgeeks.org/javascript-generate-random-hex-codes-color/ */
 // 3. BONUS: Add a random button which generates two random numbers for the colour inputs.
 function random() {
 	// Storing all letter and digit combinations for html color code
