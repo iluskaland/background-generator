@@ -34,6 +34,7 @@ function pageLoad() {
 function randomRgb() {
 	var rgb = "rgb"+ "(" +random() + ", " + random() + ", " + random() + ")" + ";";
 	console.log(rgb);
+ 	return(rgb);
 }*/
 
 /*So I needed another solution, with hex numbers. This solution random() below is something I had to searched for: https://www.geeksforgeeks.org/javascript-generate-random-hex-codes-color/ */
